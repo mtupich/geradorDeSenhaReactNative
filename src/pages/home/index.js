@@ -19,7 +19,6 @@ export function Home() {
     setPasswordValue(password)
     setModalVisible(true);
   }
-  console.log(`passei aqui 1: ${passwordValue}`);
   return (
     <View style={styles.container}>
       
